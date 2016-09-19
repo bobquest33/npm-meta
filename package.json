@@ -1,0 +1,32 @@
+{
+  "name": "storj",
+  "version": "4.0.0",
+  "description": "meta package for installing the storj cli and core library",
+  "main": "node_modules/storj-lib/index.js",
+  "bin": {
+    "storj": "node_modules/storj-cli/bin/storj.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storj/npm-meta.git"
+  },
+  "keywords": [
+    "storj",
+    "core",
+    "cli",
+    "lib"
+  ],
+  "author": "Gordon Hall <gordon@gordonwritescode.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/storj/npm-meta/issues"
+  },
+  "dependencies": {
+    "storj-lib": "*",
+    "storj-cli": "*"
+  },
+  "homepage": "https://github.com/storj/npm-meta#readme"
+}
