@@ -1,6 +1,6 @@
 {
   "name": "storj",
-  "version": "4.0.0",
+  "version": "4.0.0-beta",
   "description": "meta package for installing the storj cli and core library",
   "main": "node_modules/storj-lib/index.js",
   "bin": {
